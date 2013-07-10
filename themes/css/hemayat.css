@@ -1,0 +1,137 @@
+a:link {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #ff0000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.tbl{
+	direction:rtl;
+	font-family:Tahoma;
+	font-size:12px
+}
+
+table{
+	background: #f1f1f1 url(http://aryan-translators.ir/imgup/1/1303266638_1_64397746c4.png)no-repeat;
+}
+
+.right{
+
+	background-color:#F2F8FF;
+	width:150px;
+	line-height:25px;
+	font-size:12px;
+	color:#003D59
+	boarder: 1px solid #000000;
+}
+
+.center{
+
+	background-color:#F2F8FF;
+	width:600;
+	line-height:25px;
+	font-size:12px;
+	color:#003D59
+	boarder: 1px solid #000000;
+}
+input,select,option,textarea{
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+#sent{
+	display:block;
+	background-color:#EEFBEE;
+	border:1px green dashed;
+	font-family:Tahoma;
+	width:580px;
+	margin:20px auto 20px auto;
+	font-size:12px;
+	text-align:center;
+	padding:10px;
+	box-shadow: -10px -10px 0px yellow;
+	border-radius: 5px;
+}
+
+#err{
+	display:block;
+	background-color:#FFF8F4;
+	border:1px maroon dashed;
+	font-family:Tahoma;
+	width:580px;
+	margin:20px auto 20px auto;
+	font-size:12px;
+	text-align:center;
+	padding:10px
+}
+
+.auto-style2 {
+	text-align: center;
+}
+
+.auto-style3 {
+	text-align: center;
+	font-family: Tahoma;
+	font-size: small;
+}
+
+.auto-style4 {
+	text-align: center;
+}
+
+.auto-style5 {
+	list-style-type: circle;
+}
+
+.auto-style6 {
+	color: #0000FF;
+}
+
+.auto-style7 {
+	font-family: Tahoma;
+}
+.auto-style9 {
+	font-family: Tahoma;
+	font-weight: normal;
+}
+
+.auto-style10 {
+	text-align: right;
+}
+.auto-style11 {
+	text-align: center;
+	color: #0000FF;
+	font-size: large;
+}
+#intro {
+	background-color:#CFEBF7;
+	padding:5px 13px 5px 13px;
+	margin:10px;
+}
+
+#intro p {
+	line-height:	16.8667px;
+}
+
+td {text-align:center;
+	font-size:11px;
+}
+
+th {
+	text-align:cneter;
+	padding-right:30px;
+	font-size:11px;
+}
+
+tr.high {
+	background-color:whitesmoke;
+}
