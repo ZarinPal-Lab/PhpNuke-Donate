@@ -30,7 +30,7 @@ else
 if ($_GET['Status'] == "OK" ){
 
 
-$client = new SoapClient('https://www.zarinpal.com/pg/services/WebGate/wsdl', array('encoding'=>'UTF-8'));
+$client = new SoapClient('https://de.zarinpal.com/pg/services/WebGate/wsdl', array('encoding'=>'UTF-8'));
 $res = $client->PaymentVerification(
 			array(
 				'MerchantID'	 => $merchant ,
