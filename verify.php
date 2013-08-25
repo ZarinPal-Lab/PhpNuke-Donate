@@ -44,7 +44,9 @@ mysql_query("INSERT INTO `hemayat` (`id`, `user`, `cost`, `refID`, `item`, `date
 echo '<meta http-equiv="refresh" content="5;URL='.$web.'/modules.php?name=Subscriptions"><div><center><font color="black" size="5px"><b>با تشکر از بابت حمایت سایت ما اکنون به صفحه حمایت از سایت هدایت خواهید شد<br />نام شما در لیست حامیان سایت قرار گرفت.</b><font></div>';
 }
 }else {
-echo '<meta http-equiv="refresh" content="5;URL='.$web.'"><div><center><font color="black" size="5px"><b>پرداخت کنسل شده است </b><font></div>';
+	echo'ERR: '.$res->Status;	
+	echo '<meta http-equiv="refresh" content="5;URL='.$web.'"><div><center><font color="black" size="5px"><b>پرداخت کنسل شده است </b><font></div>';
+
 }
 mysql_close();
 
